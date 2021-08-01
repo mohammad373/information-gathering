@@ -10,7 +10,8 @@ def whatweb():
     os.system("clear")
     baner()
     time.sleep(1)
-    target = input(Fore.BLUE + "\n[" + Fore.RED + "!" + Fore.BLUE + "]" + Fore.RED + " ~ " + Fore.GREEN + "Enter Your Target  : " + Fore.YELLOW + " ")
+    target =  input(Fore.RED+" ┌─["+Fore.GREEN+"H_NWWB"+Fore.BLUE+"~"+Fore.WHITE+"@HOME"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"What-Web"+Fore.RED+"""]
+ └──╼ """+Fore.WHITE+"卐 ")
     if target == "" or None or len(target) <= 1:
         time.sleep(1)
         print(Fore.RED + "\n[!] Error Your Target Is Not Found")
